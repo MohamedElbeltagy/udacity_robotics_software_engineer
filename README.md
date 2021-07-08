@@ -1,2 +1,2 @@
 # udacity_robotics_software_engineer
-Udacity's Robotics Software Engineer nanodegree
+The Robotics Software Engineer Nanodegree program focuses on teaching the core robotics skills needed for a successful robotics software engineering career. The program has  5 projects, starting off easy with ROS essentials, building a world in Gazebo simulation engin to simulate robots, and ending with making a mobile robot perform a pickup-dropoff in an unknown map using the ROS navigation stack.
