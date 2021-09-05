@@ -1,0 +1,18 @@
+Please copy all the packages to the src directory of your catkin workspace or create a new one
+then run catkin_make to build all packages.
+
+In this project, slam gmapping package is used for mapping the working space and the final map
+is provided in the map directory. 
+
+For localization, the AMCL package is used to localize the robot relative to the early created 
+map from the gmapping package. 
+
+The robot perform pick up and drop off for a virtual object in which the robot is commanded to 
+autonomously move to the pick up area to pick up virtual object shown as a yellow square in Rviz 
+software.  
+
+The add_markers package node generates the virtual object in Rviz then the pick_objects package
+command the robot to go the location of the pick-up and drop-off zones by sending x and y 
+coordinates.
+
+To see the whole scenario in action, run ./home_service.sh script in the scripts dirctory.
